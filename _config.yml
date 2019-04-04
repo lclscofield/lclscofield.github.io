@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: lcl's blog
 subtitle:
-description:
-keywords:
-author: John Doe
-language:
+description: just we 就是 just we，既不伟大也不卑微
+keywords: blog
+author: lclscofield
+language: zh-CN
 timezone:
 
 # URL
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:lclscofield/lclscofield.github.io.git
+  branch: master
