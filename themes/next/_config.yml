@@ -159,8 +159,8 @@ baidu_push: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -177,9 +177,9 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 
@@ -197,8 +197,8 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/lclscofield || github
+  E-Mail: mailto:lclscofield@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -211,7 +211,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
 
 # Blog rolls
@@ -412,7 +412,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 # Enable "cheers" for archive page.
 cheers: true
@@ -441,10 +441,10 @@ tagcloud:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host:
+  host: https://fonts.google.com/
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -474,7 +474,7 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
+    family: Gloria Hallelujah
     size:
 
   # Font settings for <code> and code blocks.
@@ -631,9 +631,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: TMtYTB83loEAqUJ15dAcnp2b-gzGzoHsz  # your leancloud application appid
+  appkey: T1TAxUOOxUexwDcsVIfm1U8c  # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -667,17 +667,17 @@ gitment:
 # Gitalk
 # Demo: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id: lclscofield  # Github repo owner
+  repo: lclscofield.github.io  # Repository name to store issues
+  client_id: ddfcd4a301d45702aac8  # Github Application Client ID
+  client_secret: 83b0b4a9405da8114243f988afb3ffd15e554fb2  # Github Application Client Secret
+  admin_user: lclscofield  # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -745,7 +745,7 @@ needmoreshare2:
 # ---------------------------------------------------------------
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: a88a22fa07bcac8c2f3b618cd7714b47
 
 # Growingio Analytics ID
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -824,12 +824,12 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
-  post_views: true
+  post_views: false
   post_views_icon: eye
 
 # Tencent analytics ID
@@ -859,7 +859,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
