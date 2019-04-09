@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test]]></title>
-    <url>%2F2019%2F04%2F09%2Ftest%2F</url>
-    <content type="text"><![CDATA[adhsasdjasd sadsjdaosdsadkskfls daksdj a;sdlasd\asasdaksdnma dasjkdaslkd aksdjasdaasjkdaksd aksjdnalskd]]></content>
-      <categories>
-        <category>sss</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
+    <title><![CDATA[亲爱的小傻瓜]]></title>
+    <url>%2F2019%2F04%2F09%2F%E4%BA%B2%E7%88%B1%E7%9A%84%E5%B0%8F%E5%82%BB%E7%93%9C%2F</url>
+    <content type="text"><![CDATA[爱你哟小傻瓜hahaha 嘿嘿嘿等我回家]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
@@ -20,6 +14,17 @@
       </categories>
       <tags>
         <tag>xxx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F04%2F09%2Ftest%2F</url>
+    <content type="text"><![CDATA[adhsasdjasd sadsjdaosdsadkskfls daksdj a;sdlasd\asasdaksdnma dasjkdaslkd aksdjasdaasjkdaksd aksjdnalskd]]></content>
+      <categories>
+        <category>sss</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
       </tags>
   </entry>
 </search>
