@@ -1121,7 +1121,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'Satisfy', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1874,7 +1874,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3dff45;
+  background: #79ffab;
 }
 .feed-link,
 .chat {
@@ -2934,6 +2934,10 @@ pre {
 .sidebar-inner,
 .header-inner {
   box-shadow: 0 0 5px rgba(202,203,203,0.5);
+}
+.header-inner,
+.content-wrap {
+  background: rgba(255,255,255,0.5);
 }
 .posts-collapse .post-title a {
   color: #4d91de;
