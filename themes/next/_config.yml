@@ -441,7 +441,7 @@ tagcloud:
 # ---------------------------------------------------------------
 
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
   host: https://fonts.google.com/
@@ -474,7 +474,7 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Satisfy
+    family:
     size:
 
   # Font settings for <code> and code blocks.
@@ -992,7 +992,7 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # display on mobile or not
   color: "0,0,255" # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
