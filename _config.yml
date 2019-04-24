@@ -6,16 +6,27 @@
 title: lcl's blog
 subtitle:
 description: just we 就是 just we，既不伟大也不卑微
-keywords: blog
+keywords:
+  - blog
+  - 博客
+  - 前端
+  - js
+  - css
+  - vue
 author: lclscofield
 language: zh-CN
 timezone:
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://lclscofield.com
+url: https://blog.lclscofield.com
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
@@ -27,6 +38,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - '*.html'
+  - robots.txt
 
 # Writing
 new_post_name: :title.md # File name of new posts

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/  
+
+Sitemap: https://blog.lclscofield.com/sitemap.xml
+Sitemap: https://blog.lclscofield.com/baidusitemap.xml
