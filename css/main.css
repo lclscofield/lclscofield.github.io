@@ -1874,7 +1874,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1400e9;
+  background: #532abe;
 }
 .feed-link,
 .chat {
@@ -2890,6 +2890,9 @@ ul.breadcrumb li+li:last-child {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+body {
+  background: #dbefee !important;
 }
 code {
   color: #ff7600;
