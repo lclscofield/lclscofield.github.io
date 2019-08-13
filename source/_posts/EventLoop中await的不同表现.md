@@ -162,7 +162,6 @@ chrome 提交了优化 ECMAScript 的变更，就是[针对 await 规范的变�
 
 参考资料:
 
-- [[8张图帮你一步步看清 async/await 和 promise 的执行顺序](https://segmentfault.com/a/1190000017224799)](<https://segmentfault.com/a/1190000017224799#articleHeader8>)
-- [[JS task到底是怎么运行的](https://github.com/rhinel/blog-word/issues/4#) ](<https://github.com/rhinel/blog-word/issues/4>)
-- [[async await 和 promise微任务执行顺序问题](https://segmentfault.com/q/1010000016147496)](<https://segmentfault.com/q/1010000016147496>)
-
+- [8张图帮你一步步看清 async/await 和 promise 的执行顺序](https://segmentfault.com/a/1190000017224799)
+- [JS task到底是怎么运行的](https://github.com/rhinel/blog-word/issues/4#)
+- [async await 和 promise微任务执行顺序问题](https://segmentfault.com/q/1010000016147496)
