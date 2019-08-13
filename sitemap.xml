@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.lclscofield.com/Event%20Loop%20%E4%B8%AD%20await%20%E7%9A%84%E4%B8%8D%E5%90%8C%E8%A1%A8%E7%8E%B0.html</loc>
+    
+    <lastmod>2019-08-13T12:16:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.lclscofield.com/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB.html</loc>
     
-    <lastmod>2019-04-24T09:56:28.000Z</lastmod>
+    <lastmod>2019-08-13T02:35:07.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.lclscofield.com/categories/index.html</loc>
     
-    <lastmod>2019-04-09T07:15:43.000Z</lastmod>
+    <lastmod>2019-07-08T06:42:26.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.lclscofield.com/tags/index.html</loc>
     
-    <lastmod>2019-04-09T07:15:43.000Z</lastmod>
+    <lastmod>2019-07-08T06:42:26.000Z</lastmod>
     
   </url>
   
