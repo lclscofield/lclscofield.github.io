@@ -129,7 +129,7 @@
 <meta property="og:image" content="https://imgs-1253349937.cos.ap-guangzhou.myqcloud.com/blog-imgs/computer-1245714_1920.jpg">
 <meta property="og:image" content="https://imgs-1253349937.cos.ap-guangzhou.myqcloud.com/blog-imgs/20190813190015.png">
 <meta property="og:image" content="https://imgs-1253349937.cos.ap-guangzhou.myqcloud.com/blog-imgs/20190813185728.png">
-<meta property="og:updated_time" content="2019-08-13T12:16:08.000Z">
+<meta property="og:updated_time" content="2019-08-13T12:24:48.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Event Loop 中 await 的不同表现">
 <meta name="twitter:description" content="这篇文章源于一道烂大街的头条面试题，题目主要考了 Event Loop 中 async/await 对原本的事件循环造成的影响。本来看了一些解析也没啥，结果上浏览器一跑，结果错了=-=。">
@@ -441,7 +441,7 @@
                 
               
 
-              <time title="创建时间：2019-08-13 10:00:32 / 修改时间：20:16:08" itemprop="dateCreated datePublished" datetime="2019-08-13T10:00:32+08:00">2019-08-13</time>
+              <time title="创建时间：2019-08-13 10:00:32 / 修改时间：20:24:48" itemprop="dateCreated datePublished" datetime="2019-08-13T10:00:32+08:00">2019-08-13</time>
             
 
             
@@ -503,7 +503,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.7k</span>
+                <span title="本文字数">2.8k</span>
               
 
               
@@ -587,6 +587,12 @@
 </ol>
 <p>以上两种修改会导致同步调用两个async函数时，执行权交换顺序会发生改变。<br>但是会提高性能。</p>
 <p>经过对问题的质疑、求解，还是能收获很多东西的，毕竟实践是检验真理的唯一标准=-=。</p>
+<p>参考资料:</p>
+<ul>
+<li><a href="https://segmentfault.com/a/1190000017224799#articleHeader8" target="_blank" rel="noopener"><a href="https://segmentfault.com/a/1190000017224799" target="_blank" rel="noopener">8张图帮你一步步看清 async/await 和 promise 的执行顺序</a></a></li>
+<li><a href="https://github.com/rhinel/blog-word/issues/4" target="_blank" rel="noopener"><a href="https://github.com/rhinel/blog-word/issues/4#" target="_blank" rel="noopener">JS task到底是怎么运行的</a> </a></li>
+<li><a href="https://segmentfault.com/q/1010000016147496" target="_blank" rel="noopener"><a href="https://segmentfault.com/q/1010000016147496" target="_blank" rel="noopener">async await 和 promise微任务执行顺序问题</a></a></li>
+</ul>
 
       
     </div>
